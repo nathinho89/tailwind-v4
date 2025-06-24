@@ -7,7 +7,3 @@ import AppCard from "@/components/AppCard.vue"
       <AppCard />
     </div>
 </template>
-
-<style>
-@import "tailwindcss";
-</style>
