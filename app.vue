@@ -1,7 +1,11 @@
+<script setup lang="ts">
+import AppCard from "@/components/AppCard.vue"
+</script>
+
 <template>
-  <div>
-    <h1 class="font-bold text-3xl text-neutral-500">Hello I am a Tailwind class</h1>
-  </div>
+    <div class="m-10">
+      <AppCard />
+    </div>
 </template>
 
 <style>
