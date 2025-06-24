@@ -10,7 +10,7 @@ const isDark = useDark();
 <template>
     <div class="m-10">
     <label for="isDark" class="flex items-center gap-2">
-      <input type="checkbox" v-model="isDark">
+      <input v-model="isDark" type="checkbox">
       <span>Dark Mode</span>
     </label>
     <MainNav />
