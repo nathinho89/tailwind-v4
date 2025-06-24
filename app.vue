@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import AppCard from "@/components/AppCard.vue"
+import AppButton from "~/components/AppButton.vue";
+import AppInput from "~/components/AppInput.vue";
+import MainNav from "~/components/MainNav.vue";
 </script>
 
 <template>
     <div class="m-10">
-      <AppCard />
-    </div>
+    <MainNav />
+    <form action="">
+      <AppInput label="Username" />
+      <AppButton>Submit</AppButton>
+    </form>
+  </div>
 </template>
