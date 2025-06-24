@@ -21,7 +21,7 @@ const _modelValue = computed({
 </script>
 <template>
   <label class="block mb-3">
-    <span v-if="label" class="after:content-['*'] after:text-red-500 block text-2xl text-gray-800">{{ label }}</span>
+    <span v-if="label" class="after:content-['*'] after:text-red-500 block text-2xl text-neutral-800 dark:text-neutral-50">{{ label }}</span>
     <input
       v-model="_modelValue"
       placeholder="Nathan.R"
